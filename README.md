@@ -3,7 +3,7 @@
 
 ---
 
-### Tip No. 1: Integrate the linux command with the "data.table" package to read the large files faster.
-Please [follow the link](https://github.com/shahryary/R-tips/) to this toutarial.  
+### No. 1: Integrate the linux command with the "data.table" package to read the large files faster.
+Please [follow the link](https://github.com/shahryary/R-tips/tree/main/linux_fread) to this toutarial.  
 
 ---

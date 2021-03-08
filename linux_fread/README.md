@@ -1,9 +1,4 @@
-# R-tips
-  Here you can find the tips/ tricks/ codes in R language that helps you to improve computational performance.   
-
----
-
-### Tip No. 1: Integrate the linux command with the "data.table" package to read the large files faster.
+### No. 1: Integrate the linux command with the "data.table" package to read the large files faster.
 
 ---
 
@@ -42,5 +37,6 @@ tmp <- fread(cmd = command)
 ```
 
 As you could see, I write a small function that uses the "grep" to filter the data based on 'CHH' then in the 'fread' I'm calling that function.
+
 Of course, instead of the "grep" command, you could use standard Linux commands to apply various filters on your data-file then import into R. It will save a lot of your memory and reading time when you are working with large data-sets.
 
